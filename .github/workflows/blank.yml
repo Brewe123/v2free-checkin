@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: Get cookies
         env:
-          JSON: '{"email": "${{ vars.V2FREE_EMAIL }}", "passwd": "${{ secrets.V2FREE_PASSWORD }}"}'
+          JSON: '{"email": "${{ vars.fdsgds75675@cock.li }}", "passwd": "${{ secrets.z3puOr934IRc995Yl99E }}"}'
         run: |
           curl -A "$AGENT" -c cookies -H "$TYPE" -d "$JSON" https://v2free.org/auth/login
         
